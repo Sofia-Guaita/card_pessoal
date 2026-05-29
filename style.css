@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: linear-gradient(bottom, #FCE5CC, #F7CC9C);
+    background-image: linear-gradient(#FCE5CC, #F7CC9C);
 }
 
 main{
@@ -14,7 +14,7 @@ main{
 #card{
     width: 500px;
     height: 500px;
-    background-color: linear-gradient(bottom, #DDB180, #D3A169, #C88E4C);
+    background-image: linear-gradient(#DDB180, #D3A169, #C88E4C);
     text-align: center;
     border-radius: 50%;
     align-items: center;
