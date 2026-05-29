@@ -16,7 +16,6 @@ main{
     height: 550px;
     background-image: radial-gradient(#DDB180, #D3A169, #C88E4C);
     border-radius: 20%;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
