@@ -10,7 +10,7 @@ main{
     justify-content: center;
 }
 
-.card{
+#card{
     width: 500px;
     height: 500px;
     background-color: linear-gradient(bottom, #FCE5CC, #F7CC9C);
