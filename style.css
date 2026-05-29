@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-image: linear-gradient(to top, #FCE5CC, #F7CC9C);
+    background-image: linear-gradient(#FCE5CC, #F7CC9C);
 }
 
 main{
@@ -25,7 +25,7 @@ main{
 
 h1{
     font-family: "K2D", sans-serif;
-    font-weight: 100;
+    font-weight: 250;
     font-style: normal;
     color: #281607;
 }
@@ -39,12 +39,15 @@ h1{
 
 p{
     font-family: "K2D", sans-serif;
-    font-weight: 100;
+    font-weight: 200;
     font-style: normal;
     color: #110A01;
 }
 
 #logos{
+    font-family: "K2D", sans-serif;
+    font-weight: 150;
+    font-style: normal;
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -62,6 +65,9 @@ p{
 }
 
 a{
+    font-family: "K2D", sans-serif;
+    font-weight: 200;
+    font-style: normal;
     text-decoration: none;
     color: #F0D8C3;
 }
