@@ -32,7 +32,7 @@ h1{
 
 #cargo{
     font-family: "K2D", sans-serif;
-    font-weight: 100;
+    font-weight: 200;
     font-style: normal;
     color: #2F1E0D;
 }
@@ -47,7 +47,7 @@ p{
 #logos{
     list-style-type: none;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 5px;
     color: #311A06;
 }
@@ -64,6 +64,5 @@ p{
 
 a{
     text-decoration: none;
-    text-align: center;
     color: #F0D8C3;
 }
