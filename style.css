@@ -55,8 +55,14 @@ p{
 #btn_portifolio{
     width: 150px;
     height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50px;
     background-color: #462b0c9a;
+}
+
+a{
     text-decoration: none;
     text-align: center;
     color: #F0D8C3;
