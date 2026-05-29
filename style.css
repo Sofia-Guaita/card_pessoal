@@ -54,9 +54,10 @@ p{
 }
 
 #btn_portifolio{
-    width: 100px;
-    height: 30px;
-    background-color: #7f5b319d;
+    width: 150px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #462b0c9a;
     text-decoration: none;
-    color: #462b0c9a;
+    color: #F0D8C3;
 }
