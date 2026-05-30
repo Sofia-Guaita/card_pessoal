@@ -3,6 +3,7 @@
     --fundo-card: radial-gradient(#DDB180, #D3A169, #C88E4C);
     --cor--texto: #110A01;
     --fundo-pagina: linear-gradient(#FCE5CC, #F7CC9C);
+    --box-shadow-cont-card: 0 0 8px #894b039a;
 }
 
 body{
@@ -50,7 +51,7 @@ main{
 
 #img_perfil:hover{
     transform: scale(1.15);
-    box-shadow: 0 0 15px #894b039a;
+    box-shadow: var(--box-shadow-cont-card);
 }
 
 h1{
@@ -110,6 +111,7 @@ p{
 #logo_instagram:hover{
     background-image: url("img/instagram_colorido.svg");
     transform: scale(1.4);
+    box-shadow: var(--box-shadow-cont-card);
 }
 
 #logo_linkedin{
@@ -122,6 +124,7 @@ p{
 #logo_linkedin:hover{
     background-image: url("img/linkedin_colorido.svg");
     transform: scale(1.4);
+    box-shadow: var(--box-shadow-cont-card);
 }
 
 #logo_github{
@@ -134,6 +137,7 @@ p{
 #logo_github:hover{
     background-image: url("img/github_pixel.svg");
     transform: scale(1.4);
+    box-shadow: var(--box-shadow-cont-card);
 }
 
 #logo_instagram, #logo_github, #logo_linkedin{
@@ -165,7 +169,7 @@ p{
 #btn_portifolio:hover{
     transform: scale(1.1);
     background-color: #462b0c;
-    box-shadow: 0 0 8px #894b039a;
+    box-shadow: var(--box-shadow-cont-card);
 }
 
 a{
