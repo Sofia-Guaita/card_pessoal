@@ -151,7 +151,7 @@ p{
 }
 
 #logos span:hover{
-    transform: translateY(-5px), scale(1.2);
+    transform: scale(1.2);
 }
 
 #btn_portifolio{
