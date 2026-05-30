@@ -1,7 +1,7 @@
 :root{
     --cor-btn: #462b0c;
     --fundo-card: radial-gradient(#DDB180, #D3A169, #C88E4C);
-    --cor--texto: #110A01;
+    --cor-texto: #110A01;
     --fundo-pagina: linear-gradient(#FCE5CC, #F7CC9C);
     --box-shadow-cont-card: 0 0 8px #894b039a;
 }
@@ -72,13 +72,13 @@ h1{
     margin: 0;
 }
 
-p{
+#texto{
     font-family: "K2D", sans-serif;
     font-weight: 200;
     font-style: normal;
     font-size: 1.1em;
     margin: 20px 30px 0 30px;
-    color: var(--cor--texto);
+    color: var(--cor-texto);
 }
 
 #logos{
@@ -91,6 +91,7 @@ p{
     justify-content: center;
     margin: 20px 10px 0 10px;
     color: #311A06;
+    padding: 0;
 }
 
 #logos li{
@@ -156,8 +157,7 @@ p{
 
 #btn_portifolio{
     margin-top: 30px;
-    width: 150px;
-    height: 50px;
+    padding: 12px 28px;
     display: flex;
     justify-content: center;
     align-items: center;
