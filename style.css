@@ -1,6 +1,13 @@
+:root{
+    --cor-btn: #462b0c;
+    --fundo-card: radial-gradient(#DDB180, #D3A169, #C88E4C);
+    --cor--texto: #110A01;
+    --fundo-pagina: linear-gradient(#FCE5CC, #F7CC9C);
+}
+
 body{
     margin: 0;
-    background-image: linear-gradient(#FCE5CC, #F7CC9C);
+    background-image: var(--fundo-pagina);
 }
 
 main{
@@ -14,9 +21,9 @@ main{
 #card{
     width: 500px;
     height: 550px;
-    background-image: radial-gradient(#DDB180, #D3A169, #C88E4C);
+    background-image: var(--fundo-card);
     box-shadow: 5px 5px 15px -5px #110a01a8;
-    border-radius: 20%;
+    border-radius: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,7 +36,7 @@ main{
     transform: scale(1.05);
 }
 
-figure{
+#img_perfil{
     width: 150px;
     height: 150px;
     background-image: url("img/logo_sofia.jpg");
@@ -38,10 +45,10 @@ figure{
     border-radius: 50%;
     margin: 0 0 20px 0;
     transition: transform 0.3s ease;
-    border: 5px solid #462b0c9a;
+    border: 5px solid var(--cor-btn);
 }
 
-figure:hover{
+#img_perfil:hover{
     transform: scale(1.15);
     box-shadow: 0 0 15px #894b039a;
 }
@@ -70,7 +77,7 @@ p{
     font-style: normal;
     font-size: 1.1em;
     margin: 20px 30px 0 30px;
-    color: #110A01;
+    color: var(--cor--texto);
 }
 
 #logos{
@@ -140,8 +147,7 @@ p{
 }
 
 #logos span:hover{
-    transform: translateY(-5px);
-    transform: scale(1.2);
+    transform: translateY(-5px), scale(1.2);
 }
 
 #btn_portifolio{
