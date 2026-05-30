@@ -24,7 +24,7 @@ main{
     height: 550px;
     background-image: var(--fundo-card);
     box-shadow: 5px 5px 15px -5px #110a01a8;
-    border-radius: 80px;
+    border-radius: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
