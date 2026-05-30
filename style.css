@@ -15,7 +15,7 @@ main{
     width: 500px;
     height: 550px;
     background-image: radial-gradient(#DDB180, #D3A169, #C88E4C);
-    box-shadow: #110a01a8;
+    box-shadow: 5px 5px 15px -5px #110a01a8;
     border-radius: 20%;
     display: flex;
     flex-direction: column;
@@ -29,38 +29,123 @@ main{
     transform: scale(1.05);
 }
 
+figure{
+    width: 150px;
+    height: 150px;
+    background-image: url("img/logo_sofia.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 0 20px 0;
+    transition: transform 0.3s ease;
+    border: 5px solid #462b0c9a;
+}
+
+figure:hover{
+    transform: scale(1.15);
+    box-shadow: 0 0 15px #894b039a;
+}
+
 h1{
     font-family: "K2D", sans-serif;
     font-weight: 250;
     font-style: normal;
     color: #281607;
+    margin: 0;
+    font-size: 2em;
 }
 
 #cargo{
     font-family: "K2D", sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-style: normal;
+    font-size: 1.2em;
     color: #2F1E0D;
+    margin: 0;
 }
 
 p{
     font-family: "K2D", sans-serif;
     font-weight: 200;
     font-style: normal;
+    font-size: 1.1em;
+    margin: 20px 30px 0 30px;
     color: #110A01;
 }
 
 #logos{
     font-family: "K2D", sans-serif;
-    font-weight: 150;
+    font-weight: 200;
     font-style: normal;
     list-style-type: none;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px 0 10px;
     color: #311A06;
 }
 
+#logos li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+#logo_instagram{
+    background-image: url("img/logo_instagram.svg");
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+
+#logo_instagram:hover{
+    background-image: url("img/instagram_colorido.svg");
+    transform: scale(1.4);
+}
+
+#logo_linkedin{
+    background-image: url("img/logo_linkedin.svg");
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+
+#logo_linkedin:hover{
+    background-image: url("img/linkedin_colorido.svg");
+    transform: scale(1.4);
+}
+
+#logo_github{
+    background-image: url("img/logo_github.svg");
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+
+#logo_github:hover{
+    background-image: url("img/github_pixel.svg");
+    transform: scale(1.4);
+}
+
+#logo_instagram, #logo_github, #logo_linkedin{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+#logos span{
+    transition: transform 0.3s ease;
+}
+
+#logos span:hover{
+    transform: translateY(-5px);
+    transform: scale(1.2);
+}
+
 #btn_portifolio{
+    margin-top: 30px;
     width: 150px;
     height: 50px;
     display: flex;
@@ -68,6 +153,13 @@ p{
     align-items: center;
     border-radius: 50px;
     background-color: #462b0c9a;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#btn_portifolio:hover{
+    transform: scale(1.1);
+    background-color: #462b0c;
+    box-shadow: 0 0 8px #894b039a;
 }
 
 a{
